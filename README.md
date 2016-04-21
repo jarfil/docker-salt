@@ -19,6 +19,8 @@ Fedora images: **(TODO)**
 | salt-ssh |  |  |  |  | ++ | + | + |
 | salt-cloud |  |  |  |  | ++ | + | + |
 | salt-syndic |  |  |  | ++ |  |  | ++ |
+| salt-api |  |  |  |  |  |  | ++ |
+| salt-proxy |  |  |  |  |  |  | ++ |
 | man |  |  |  |  |  | ++ | + |
 | less |  |  |  |  |  | ++ | + |
 | salt-doc |  |  |  |  |  | ++ | + |
