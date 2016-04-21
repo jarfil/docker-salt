@@ -7,6 +7,8 @@ COPY docker-entrypoint.sh /
 RUN apt-get -y update && \
 	apt-get -y upgrade && \
 	apt-get -y install \
+		salt-api \
+		salt-proxy \
 		salt-syndic && \
 	apt-get -y autoremove && \
 	apt-get clean && \
