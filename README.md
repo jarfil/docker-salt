@@ -31,10 +31,10 @@ Fedora images: **(TODO)**
 
 | Image | Layers |
 | --- | --- |
-| salt-common | [![](https://imagelayers.io/badge/jarfil/salt-common:debian-stretch.svg)](https://imagelayers.io/?images=jarfil/salt-common:debian-stretch 'Get your own badge on imagelayers.io') |
-| salt-minion | [![](https://imagelayers.io/badge/jarfil/salt-minion:debian-stretch.svg)](https://imagelayers.io/?images=jarfil/salt-minion:debian-stretch 'Get your own badge on imagelayers.io') |
-| salt-master-mini | [![](https://imagelayers.io/badge/jarfil/salt-master-mini:debian-stretch.svg)](https://imagelayers.io/?images=jarfil/salt-master-mini:debian-stretch 'Get your own badge on imagelayers.io') |
-| salt-syndic | [![](https://imagelayers.io/badge/jarfil/salt-syndic:debian-stretch.svg)](https://imagelayers.io/?images=jarfil/salt-syndic:debian-stretch 'Get your own badge on imagelayers.io') |
-| salt-master | [![](https://imagelayers.io/badge/jarfil/salt-master:debian-stretch.svg)](https://imagelayers.io/?images=jarfil/salt-master:debian-stretch 'Get your own badge on imagelayers.io') |
-| salt-master-docs | [![](https://imagelayers.io/badge/jarfil/salt-master-docs:debian-stretch.svg)](https://imagelayers.io/?images=jarfil/salt-master-docs:debian-stretch 'Get your own badge on imagelayers.io') |
-| salt-full | [![](https://imagelayers.io/badge/jarfil/salt-full:debian-stretch.svg)](https://imagelayers.io/?images=jarfil/salt-full:debian-stretch 'Get your own badge on imagelayers.io') |
+| salt-common | [![](https://images.microbadger.com/badges/image/jarfil/salt-common:debian-stretch.svg)](http://microbadger.com/#/images/jarfil/salt-common:debian-stretch 'Get your own badge on imagelayers.io') |
+| salt-minion | [![](https://images.microbadger.com/badges/image/jarfil/salt-minion:debian-stretch.svg)](http://microbadger.com/#/images/jarfil/salt-minion:debian-stretch 'Get your own badge on imagelayers.io') |
+| salt-master-mini | [![](https://images.microbadger.com/badges/image/jarfil/salt-master-mini:debian-stretch.svg)](http://microbadger.com/#/images/jarfil/salt-master-mini:debian-stretch 'Get your own badge on imagelayers.io') |
+| salt-syndic | [![](https://images.microbadger.com/badges/image/jarfil/salt-syndic:debian-stretch.svg)](http://microbadger.com/#/images/jarfil/salt-syndic:debian-stretch 'Get your own badge on imagelayers.io') |
+| salt-master | [![](https://images.microbadger.com/badges/image/jarfil/salt-master:debian-stretch.svg)](http://microbadger.com/#/images/jarfil/salt-master:debian-stretch 'Get your own badge on imagelayers.io') |
+| salt-master-docs | [![](https://images.microbadger.com/badges/image/jarfil/salt-master-docs:debian-stretch.svg)](http://microbadger.com/#/images/jarfil/salt-master-docs:debian-stretch 'Get your own badge on imagelayers.io') |
+| salt-full | [![](https://images.microbadger.com/badges/image/jarfil/salt-full:debian-stretch.svg)](http://microbadger.com/#/images/jarfil/salt-full:debian-stretch 'Get your own badge on imagelayers.io') |
