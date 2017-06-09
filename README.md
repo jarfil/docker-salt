@@ -10,9 +10,10 @@ Fedora images: **(TODO)**
 
 ## Debian Stretch
 
-|  | common | minion | master-mini | syndic | master | master-docs | full |
+| Image: | common | minion | master-mini | syndic | master | master-docs | full |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **FROM** | debian | common | common | master-mini | master-mini | master | master-docs |
+| FROM: | debian | common | common | master-mini | master-mini | master | master-docs |
+| **Packages** |
 | salt-common | + | + | + | + | + | + | + |
 | salt-minion |  | ++ |  |  | ++ | + | + |
 | salt-master |  |  | ++ | + | + | + | + |
@@ -24,7 +25,7 @@ Fedora images: **(TODO)**
 | man |  |  |  |  |  | ++ | + |
 | less |  |  |  |  |  | ++ | + |
 | salt-doc |  |  |  |  |  | ++ | + |
-| **Autostart** |  |  |  |  |  |  |  |
+| **Autostart** |
 | minion |  | + |  |  | + | + |  |
 | master |  |  | + | + | + | + | + |
 | syndic |  |  |  | + |  |  |  |  |
