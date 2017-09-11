@@ -1,4 +1,4 @@
-FROM jarfil/salt-common:debian-stretch
+FROM jarfil/salt-common:debian-buster
 
 MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 

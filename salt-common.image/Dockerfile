@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 
 MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 
