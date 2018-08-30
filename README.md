@@ -3,6 +3,8 @@
 ## Supported tags
 
 * `latest`, `debian`, `debian-stretch`
+* **NOT WORKING:** `debian-buster` (salt package removed from debian)
+* `debian-unstable` (debian-buster with salt packages from unstable)
 * **TODO:** `fedora`, `fedora-23`
 
 Debian Stretch images: [![](https://imagelayers.io/badge/jarfil/salt-full:debian-stretch.svg)](https://imagelayers.io/?images=jarfil%2Fsalt-common:debian-stretch,jarfil%2Fsalt-minion:debian-stretch,jarfil%2Fsalt-master-mini:debian-stretch,jarfil%2Fsalt-syndic:debian-stretch,jarfil%2Fsalt-master:debian-stretch,jarfil%2Fsalt-master-docs:debian-stretch,jarfil%2Fsalt-full:debian-stretch 'Get your own badge on imagelayers.io')
