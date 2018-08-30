@@ -1,4 +1,4 @@
-FROM jarfil/salt-master-docs:debian-buster
+FROM jarfil/salt-master-docs:debian-unstable
 
 MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 

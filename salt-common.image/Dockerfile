@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:unstable
 
 MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 
