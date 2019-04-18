@@ -13,7 +13,7 @@ Official SaltStack packages for [Debian 9 PY3 latest](https://repo.saltstack.com
 
 *Note:* package `salt-minion` includes `salt-proxy`.
 
-| Image: | common | minion | master-mini | syndic | master | master-docs | full |
+| Image: | [common](https://cloud.docker.com/repository/docker/jarfil/salt-common) | [minion](https://cloud.docker.com/repository/docker/jarfil/salt-minion) | [master-mini](https://cloud.docker.com/repository/docker/jarfil/salt-master-mini) | [syndic](https://cloud.docker.com/repository/docker/jarfil/salt-syndic) | [master](https://cloud.docker.com/repository/docker/jarfil/salt-master) | [master-docs](https://cloud.docker.com/repository/docker/jarfil/salt-master-docs) | [full](https://cloud.docker.com/repository/docker/jarfil/salt-full) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | FROM: | debian | common | common | master-mini | master-mini | master | master-docs |
 | **Packages** |
@@ -46,7 +46,7 @@ Official SaltStack packages for [Debian 9 PY3 latest](https://repo.saltstack.com
 
 Official Debian packages.
 
-| Image: | common | minion | master-mini | syndic | master | master-docs | full |
+| Image: | [common](https://cloud.docker.com/repository/docker/jarfil/salt-common) | [minion](https://cloud.docker.com/repository/docker/jarfil/salt-minion) | [master-mini](https://cloud.docker.com/repository/docker/jarfil/salt-master-mini) | [syndic](https://cloud.docker.com/repository/docker/jarfil/salt-syndic) | [master](https://cloud.docker.com/repository/docker/jarfil/salt-master) | [master-docs](https://cloud.docker.com/repository/docker/jarfil/salt-master-docs) | [full](https://cloud.docker.com/repository/docker/jarfil/salt-full) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | FROM: | debian | common | common | master-mini | master-mini | master | master-docs |
 | **Packages** |
