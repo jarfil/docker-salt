@@ -5,7 +5,7 @@
 * `latest`, `debian`, `debian-stretch`
 * `debian-buster`
 * **TODO:** `debian-unstable`
-* **TODO:** `fedora`, `fedora-23`
+* **TODO:** `fedora`, `fedora-29`
 
 ## Debian Stretch (9, stable)
 
