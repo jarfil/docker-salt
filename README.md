@@ -29,20 +29,20 @@ Official SaltStack packages for [Debian 9 PY3 latest](https://repo.saltstack.com
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | FROM: | debian | common | common | master-mini | master-mini | master | master-docs |
 | **Packages** |
-| salt-common | + | + | + | + | + | + | + |
-| salt-minion |  | ++ |  |  | ++ | + | + |
-| salt-master |  |  | ++ | + | + | + | + |
-| salt-ssh |  |  |  |  | ++ | + | + |
-| salt-cloud |  |  |  |  | ++ | + | + |
-| salt-syndic |  |  |  | ++ |  |  | ++ |
-| salt-api |  |  |  |  |  |  | ++ |
-| man |  |  |  |  |  | ++ | + |
-| less |  |  |  |  |  | ++ | + |
-| salt-doc |  |  |  |  |  | ++ | + |
+| salt-common | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| salt-minion |  | ✔️ |  |  | ✔️ | ✔️ | ✔️ |
+| salt-master |  |  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| salt-ssh |  |  |  |  | ✔️ | ✔️ | ✔️ |
+| salt-cloud |  |  |  |  | ✔️ | ✔️ | ✔️ |
+| salt-syndic |  |  |  | ✔️ |  |  | ✔️ |
+| salt-api |  |  |  |  |  |  | ✔️ |
+| man |  |  |  |  |  | ✔️ | ✔️ |
+| less |  |  |  |  |  | ✔️ | ✔️ |
+| salt-doc |  |  |  |  |  | ✔️ | ✔️ |
 | **Autostart** |
-| minion |  | + |  |  | + | + |  |
-| master |  |  | + | + | + | + | + |
-| syndic |  |  |  | + |  |  |  |  |
+| minion |  | ✔️ |  |  | ✔️ | ✔️ |  |
+| master |  |  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| syndic |  |  |  | ✔️ |  |  |  |  |
 
 ## Debian Buster (10, testing)
 
@@ -52,18 +52,18 @@ Official Debian packages.
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | FROM: | debian | common | common | master-mini | master-mini | master | master-docs |
 | **Packages** |
-| salt-common | + | + | + | + | + | + | + |
-| salt-minion |  | ++ |  |  | ++ | + | + |
-| salt-master |  |  | ++ | + | + | + | + |
-| salt-ssh |  |  |  |  | ++ | + | + |
-| salt-cloud |  |  |  |  | ++ | + | + |
-| salt-syndic |  |  |  | ++ |  |  | ++ |
-| salt-api |  |  |  |  |  |  | ++ |
-| salt-proxy |  |  |  |  |  |  | ++ |
-| man |  |  |  |  |  | ++ | + |
-| less |  |  |  |  |  | ++ | + |
-| salt-doc |  |  |  |  |  | ++ | + |
+| salt-common | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| salt-minion |  | ✔️ |  |  | ✔️ | ✔️ | ✔️ |
+| salt-master |  |  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| salt-ssh |  |  |  |  | ✔️ | ✔️ | ✔️ |
+| salt-cloud |  |  |  |  | ✔️ | ✔️ | ✔️ |
+| salt-syndic |  |  |  | ✔️ |  |  | ✔️ |
+| salt-api |  |  |  |  |  |  | ✔️ |
+| salt-proxy |  |  |  |  |  |  | ✔️ |
+| man |  |  |  |  |  | ✔️ | ✔️ |
+| less |  |  |  |  |  | ✔️ | ✔️ |
+| salt-doc |  |  |  |  |  | ✔️ | ✔️ |
 | **Autostart** |
-| minion |  | + |  |  | + | + |  |
-| master |  |  | + | + | + | + | + |
-| syndic |  |  |  | + |  |  |  |  |
+| minion |  | ✔️ |  |  | ✔️ | ✔️ |  |
+| master |  |  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| syndic |  |  |  | ✔️ |  |  |  |  |
