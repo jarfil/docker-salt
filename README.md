@@ -3,7 +3,7 @@
 ## Supported tags
 
 * `latest`, `debian`, `debian-stretch`
-* `testing`, `debian-buster`
+* `debian-buster`
 * **TODO:** `debian-unstable`
 * **TODO:** `fedora`, `fedora-23`
 
