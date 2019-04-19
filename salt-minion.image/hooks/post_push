@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+if [ "$DOCKER_TAG" == "debian-stretch" ] ; then
+ docker tag "$IMAGE_NAME" "${DOCKER_REPO}:debian"
+ docker push "${DOCKER_REPO}:debian"
+ docker tag "$IMAGE_NAME" "${DOCKER_REPO}:latest"
+ docker push "${DOCKER_REPO}:latest"
+fi
