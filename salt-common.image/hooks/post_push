@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+if [ "$DOCKER_TAG" == "fedora-29" ] ; then
+ docker tag "$IMAGE_NAME" "${DOCKER_REPO}:fedora"
+ docker push "${DOCKER_REPO}:fedora"
+fi
