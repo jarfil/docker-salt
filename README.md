@@ -4,8 +4,8 @@
 
 * `latest`, `debian`, `debian-stretch`
 * `debian-buster`
-* **TODO:** `debian-unstable`
-* **TODO:** `fedora`, `fedora-29`
+* `debian-unstable`
+* `fedora`, `fedora-29`
 
 ## Layers
 
