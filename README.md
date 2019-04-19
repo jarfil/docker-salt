@@ -67,3 +67,27 @@ Official Debian packages.
 | minion |  | ✔️ |  |  | ✔️ | ✔️ |  |
 | master |  |  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 | syndic |  |  |  | ✔️ |  |  |  |  |
+
+## Debian Sid (unstable)
+
+Official Debian packages.
+
+| Image: | [common](https://cloud.docker.com/repository/docker/jarfil/salt-common) | [minion](https://cloud.docker.com/repository/docker/jarfil/salt-minion) | [master-mini](https://cloud.docker.com/repository/docker/jarfil/salt-master-mini) | [syndic](https://cloud.docker.com/repository/docker/jarfil/salt-syndic) | [master](https://cloud.docker.com/repository/docker/jarfil/salt-master) | [master-docs](https://cloud.docker.com/repository/docker/jarfil/salt-master-docs) | [full](https://cloud.docker.com/repository/docker/jarfil/salt-full) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| FROM: | debian | common | common | master-mini | master-mini | master | master-docs |
+| **Packages** |
+| salt-common | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| salt-minion |  | ✔️ |  |  | ✔️ | ✔️ | ✔️ |
+| salt-master |  |  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| salt-ssh |  |  |  |  | ✔️ | ✔️ | ✔️ |
+| salt-cloud |  |  |  |  | ✔️ | ✔️ | ✔️ |
+| salt-syndic |  |  |  | ✔️ |  |  | ✔️ |
+| salt-api |  |  |  |  |  |  | ✔️ |
+| salt-proxy |  |  |  |  |  |  | ✔️ |
+| man |  |  |  |  |  | ✔️ | ✔️ |
+| less |  |  |  |  |  | ✔️ | ✔️ |
+| salt-doc |  |  |  |  |  | ✔️ | ✔️ |
+| **Autostart** |
+| minion |  | ✔️ |  |  | ✔️ | ✔️ |  |
+| master |  |  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| syndic |  |  |  | ✔️ |  |  |  |  |
