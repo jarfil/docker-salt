@@ -111,4 +111,5 @@ Official Fedora packages.
 | **Autostart** |   |   |   |   |   |   |   |
 | minion |   | ✔️ |   |   | ✔️ | ✔️ |   |
 | master |   |   | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-| syndic |   |   |   | ✔️ |   |   |   |
+| syndic |   |   |   | ✔️ |   |   |   |   |
+
