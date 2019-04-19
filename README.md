@@ -59,6 +59,7 @@ Official Debian packages.
 | salt-cloud |  |  |  |  | ✔️ | ✔️ | ✔️ |
 | salt-syndic |  |  |  | ✔️ |  |  | ✔️ |
 | salt-api |  |  |  |  |  |  | ✔️ |
+| salt-pepper |  |  |  |  |  |  | ✔️ |
 | salt-proxy |  |  |  |  |  |  | ✔️ |
 | man |  |  |  |  |  | ✔️ | ✔️ |
 | less |  |  |  |  |  | ✔️ | ✔️ |
@@ -83,6 +84,7 @@ Official Debian packages.
 | salt-cloud |  |  |  |  | ✔️ | ✔️ | ✔️ |
 | salt-syndic |  |  |  | ✔️ |  |  | ✔️ |
 | salt-api |  |  |  |  |  |  | ✔️ |
+| salt-pepper |  |  |  |  |  |  | ✔️ |
 | salt-proxy |  |  |  |  |  |  | ✔️ |
 | man |  |  |  |  |  | ✔️ | ✔️ |
 | less |  |  |  |  |  | ✔️ | ✔️ |
