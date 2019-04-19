@@ -1,18 +1,19 @@
-FROM jarfil/salt-master:debian-buster
+FROM jarfil/salt-master:fedora-29
 
 MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 
 COPY docker-entrypoint.sh /
 
-RUN apt-get -y update && \
-	apt-get -y upgrade && \
-	apt-get -y install \
-		man \
-		less \
-		salt-doc && \
-	apt-get -y autoremove && \
-	apt-get clean && \
-	rm -rf /var/lib/apt/lists/
+RUN dnf -y upgrade && \
+	dnf -y --setopt=tsflags='' install \
+		man-db && \
+	dnf -y --setopt=tsflags='' reinstall \
+		salt \
+		salt-minion \
+		salt-master \
+		salt-ssh \
+		salt-cloud && \
+	dnf clean all 
 
 RUN chmod +x \
 	/docker-entrypoint.sh

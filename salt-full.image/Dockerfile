@@ -1,18 +1,14 @@
-FROM jarfil/salt-master-docs:debian-buster
+FROM jarfil/salt-master-docs:fedora-29
 
 MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 
 COPY docker-entrypoint.sh /
 
-RUN apt-get -y update && \
-	apt-get -y upgrade && \
-	apt-get -y install \
+RUN dnf -y upgrade && \
+	dnf -y --setopt=tsflags='' install \
 		salt-api \
-		salt-proxy \
 		salt-syndic && \
-	apt-get -y autoremove && \
-	apt-get clean && \
-	rm -rf /var/lib/apt/lists/
+	dnf clean all 
 
 RUN chmod +x \
 	/docker-entrypoint.sh
