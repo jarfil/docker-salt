@@ -91,3 +91,24 @@ Official Debian packages.
 | minion |  | ✔️ |  |  | ✔️ | ✔️ |  |
 | master |  |  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 | syndic |  |  |  | ✔️ |  |  |  |  |
+
+## Fedora 29
+
+Official Fedora packages.
+
+| Image: | [common](https://cloud.docker.com/repository/docker/jarfil/salt-common) | [minion](https://cloud.docker.com/repository/docker/jarfil/salt-minion) | [master-mini](https://cloud.docker.com/repository/docker/jarfil/salt-master-mini) | [syndic](https://cloud.docker.com/repository/docker/jarfil/salt-syndic) | [master](https://cloud.docker.com/repository/docker/jarfil/salt-master) | [master-docs](https://cloud.docker.com/repository/docker/jarfil/salt-master-docs) | [full](https://cloud.docker.com/repository/docker/jarfil/salt-full) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| FROM: | fedora | common | common | master-mini | master-mini | master | master-docs |
+| **Packages** |   |   |   |   |   |   |   |
+| salt         | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| salt-minion  |   | ✔️ |   |   | ✔️ | ✔️ | ✔️ |
+| salt-master  |   |   | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| salt-ssh     |   |   |   |   | ✔️ | ✔️ | ✔️ |
+| salt-cloud   |   |   |   |   | ✔️ | ✔️ | ✔️ |
+| salt-syndic  |   |   |   | ✔️ |   |   | ✔️ |
+| salt-api     |   |   |   |   |   |   | ✔️ |
+| man          |   |   |   |   |   | ✔️ | ✔️ |
+| **Autostart** |   |   |   |   |   |   |   |
+| minion |   | ✔️ |   |   | ✔️ | ✔️ |   |
+| master |   |   | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+| syndic |   |   |   | ✔️ |   |   |   |
