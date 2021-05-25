@@ -1,4 +1,4 @@
-FROM fedora:29
+FROM fedora:34
 
 MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 

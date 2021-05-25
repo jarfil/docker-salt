@@ -1,4 +1,4 @@
-FROM jarfil/salt-master:fedora-29
+FROM jarfil/salt-master:fedora-34
 
 MAINTAINER Jaroslaw Filiochowski <jarfil@gmail.com>
 
